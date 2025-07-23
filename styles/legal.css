@@ -1,0 +1,343 @@
+.eb-garamond{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* Header section styles */
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.busi-tice{
+    display: flex;
+    width: 158px;
+    height: 46px;
+    gap: 16px;
+}
+.busi-tice h4{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #414040;
+}
+.list-item{
+    display: flex;
+    gap: 30px;
+    /* flex-direction: row; */
+}
+.list-item li{
+    margin-top: 18px;
+    list-style: none;
+}
+.btn-primary:hover{
+    background-color: #915e1f;
+}
+.btn-primary{
+    background-color: #B68C5A;
+    color: #FFFFFF;
+    padding: 20px 20px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Banner section styles */
+.banner{
+    background-image: url("../images/banner.png"), url("../images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    /* margin: 50px 0 120px 0; */
+    margin: 70px auto;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-width{
+    text-align: center;
+    width: 692px;
+    height: 342px;
+    gap: 32px;
+}
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    /* line-height: 85; */
+    color: #FFFFFF;
+}
+.banner-description{
+    color: #E7E7E7;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+.banner-width input{
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+/* Practice section styles */
+.practice{
+    text-align: center;
+}
+.practice h4{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #414040;
+}
+.practice p{
+    color: #707070;
+}
+
+/* section card container styles */
+.cards{
+    margin-top: 64px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.card-container{
+    /* position: absolute; */
+    border: 1px solid rgb(231, 231, 231);
+    background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+    width: 390px;
+    height: 499px;
+    text-align: center;
+    padding: 70px;
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #414040;
+    /* margin: 30 auto; */
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.card-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #707070;
+    margin: 26 auto;
+    margin-bottom: 32px;
+}
+
+/* Section client-reviews styles */
+.client-reviews{
+    text-align: center;
+}
+.client-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #414040;
+    margin-bottom: 24px;
+}
+.client-description{
+    color: #707070;
+    margin-bottom: 64px;
+    /* width: 714px; */
+}
+/* Reviews section styles */
+.reviews{
+    background-image: url("../images/banner.png"), url(../images/Rectangle\ 7.png);
+    padding: 96px 135px;
+    text-align: center;
+    align-content: center;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+.reviews img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.job-title{
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.job-description{
+    color: #F3F3F3;
+    line-height: 26px;
+}
+
+/* frequently section styles */
+.frequently{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.frequently-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #414040;
+}
+.frequently-description{
+    color: #707070;
+    line-height: 26px;
+}
+
+/* all-question section styles */
+.all-question{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 120px;
+}
+.left-half{
+    flex: 1;
+}   
+.right-half{
+    flex: 1;
+}
+.right-half img{
+    width: 570px;
+    height: 474px;
+}
+.question{
+    margin-bottom: 30px;
+    width: 570px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* contact section styles */
+.contact{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.contact h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #414040;
+}
+.contact p{
+    color: #707070;
+    line-height: 26px;
+    margin-bottom: 64px;
+}
+.all-contact{
+    display: flex;
+}
+.contact-left{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-right{
+    flex: 1;
+}
+
+.box{
+    background-color: #F3F3F3;
+    width: 285px;
+    height: 260px;
+    border: 1px solid rgb(223, 214, 214);
+    /* gap: 10px; */
+    padding: 55px 60px;
+}
+.box h2{
+    color: #414040;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.box p{
+    color: #707070;
+    line-height: 26px;
+}
+.contact-right input, textarea, .right-btn{
+    width: 570px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: none;
+}
+.right-btn:hover{
+    background-color: #915e1f;
+}
+.right-btn{
+    background-color: #B68C5A;
+}
+
+/* Footer section styles */
+.all-header{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.all-paragraph{
+    color: #CFCFCF;
+    line-height: 26px;
+}
+.footer{
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    border-radius: 10px;
+}
+.one img{
+    margin-bottom: 30px;
+}
+.two h3{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.two ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.three h3{
+    margin-bottom: 30px;
+}
+.four{
+    margin-left: 40px;
+}
+.four h3{
+    margin-bottom: 30px;
+}
+.four input{
+    height: 72px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.four button:hover{
+    background-color: #915e1f;
+}
+.four button{
+    height: 72px;
+    width: 72px;
+    border-radius: 5px;
+    background-color: #B68C5A;
+}
+.yooo{
+    display: flex;
+    margin-top: 10px;
+}
